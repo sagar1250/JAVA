@@ -1,0 +1,22 @@
+To print sum of two numbers, here we are considering variables a & b.
+
+consider,
+
+int a = 10;
+
+int b = 05;
+
+form above a, b are variables and they are of type integer.
+
+Next in order to store the sum value we will create a 'sum' variable.
+
+int sum = a + b;
+
+Note: I have taken sum as a variable you can take any thing which should be suitable for your problem statement. By looking at that variable, we should understand  what it performs in the program.
+
+the sum variable will calculate the sum of two numbers. i.e a, b
+
+
+             
+     
+
