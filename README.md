@@ -19,8 +19,11 @@ Note: I have taken sum as a variable you can take any thing which should be suit
 the sum variable will calculate the sum of two numbers. i.e a, b
 
 ## code
-public class sumofAandB{
-    public static void main(String[] args){
+
+public class sumofAandB
+{
+    public static void main(String[] args)
+    {
         int a = 10;
         int b = 05;
 
