@@ -34,4 +34,20 @@ public class sumofAandB
 
 
              
-     
+## comments in java
+
+In java we have 2 types of comments
+
+1.single line comments.
+
+### //<This is sing le line comment>
+
+2.multi line comments.
+
+### /*<This is multi line comment. You can write as many comment line as you can> */
+
+
+## Input in Java
+ how to take input from user.
+
+ To take input we will create an Object which is the Scanner class
