@@ -48,6 +48,7 @@ In java we have 2 types of comments
 
 
 ## Input in Java
- how to take input from user.
 
- To take input we will create an Object which is the Scanner class
+ how we can to take input from users in java.
+
+ To take input we will create an Object which is the Scanner class.
