@@ -1,5 +1,7 @@
 # JAVA
 
+## Date: 19-11-2024
+
 To print sum of two numbers, here we are considering variables a & b.
 
 consider,
@@ -59,6 +61,8 @@ In java we have 2 types of comments
  ## skipped Variables & Types, operators, Conditional Statements( Up comming if iam learning i will post it here)
 
 
+
+## Date: 20-11-2024
 
  ## Loops
 
@@ -163,6 +167,25 @@ public class loop100times {
 
 
             number++;
+        }
+    }
+}
+
+
+Question:
+
+##### Print numbers from 1 to 10 using while loop.
+
+solution:
+
+public class print1to10 {
+    public static void main(String[] args) {
+        // Using While loop
+        // print 1 to 10 numbers in java 
+        int num = 1;
+        while(num <= 10){
+            System.out.println(num);
+            num++;
         }
     }
 }
