@@ -191,8 +191,88 @@ public class print1to10 {
 }
 
 
+### Date: 21-11-2024
+
+Scanner Sc - the object we will take in the program below. where we are taking input from the user.
+
+Question:
+
+Print Numbers from 1 to N
+
+Solution:
+
+here we are using scanner class and creating an object, and we are creating two variables one is to initialize the count value we denoted it as I, one more variable is number num, rthe number which we are taking it from the user.
+
+if we are using scanner class the we need to import some libraries like
+import java,util,*;
+
+    (or)
+    
+import java.util.Scanner;
+---------------------------------------
+import java.util.*;
+
+public class print1ton {
+
+    public static void main(String[] args){
+
+  
+    //Print numbers from 1 to n
+    Scanner sc = new Scanner(System.in);
+    int i = 0;
+
+    System.out.println("Enter a number");
+    int num = sc.nextInt();
+
+    while(i <= num){
+        System.out.println(i);
+        i++;
+    }
+    sc.close();
+
+   }
+   
+}
 
 
+--------------
+Question:
+
+Print sum of first N natural Numbers.
+
+Solition:
+
+import java.util.*;
+
+public class printNnaturalNums {
+    public static void main(String[] arge){  
+    
+    
+    // here i have done one mistake during my execution - i have diped upper case M in main so my previous code vas executing i am not able to understand where i did mistake thin i got some idea that we can also run using some othe commands rigth other than using VS code run button.
+
+    javac <file name>.java // after running this in terminal of VS code its executing fine then trived with below step
+    
+    java <file name>.java  // when i was enter this command it shwn one error (error: can't find main(String[]) method in class: printNnaturalNums) - then i checked main method clearly and identified this error. this is called learning from mistakes.
 
 
+    
+        //Print sum of n natural numbers
+
+        Scanner sc = new Scanner(System.in);
+
+        int sum  = 0;
+        int i = 1;
+        System.out.println("Enter a number which is greater then 0");
+        int num = sc.nextInt();
+
+        while(i <= num){
+            sum = sum + i;
+            i++;
+        }
+        System.out.println(sum);
+        sc.close();
+    }
+    
+}
+-------------------------
 
