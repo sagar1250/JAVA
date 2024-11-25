@@ -276,4 +276,28 @@ public class printNnaturalNums {
 }
 -------------------------
 
+## For Loop
+
+Where we are using While loop, we can use for loop also - this basically depends on the problem statement. In further chapters we will come to know where to use a particular looping statement.
+
+
+Sysntax:
+
+for(initilisation; condition; updation){
+
+// Do something
+
+}
+
+we will first write for keyword, followed by initilisation statement we will right, followed by the condition statement, and at the last wee write the updation statement.
+
+we use semicolumn(;) at the end of every statement - [for(initilisation; condition; updating)]
+we try to compress all the three statements in a single line, which are Installation, condition, and updation statements.
+
+we will open the for loop curly braces and we start providing our print statements or any extra conditions - we need to remember one thing which ever the thing you write in the for loop it is dedicate to that particular section only we cant use them in out side of the for loop,
+
+
+
+for example: consider if you are declaring any variable it is used and dedicated to that block of for loop only.
+
 
