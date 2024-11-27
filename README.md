@@ -301,3 +301,65 @@ we will open the for loop curly braces and we start providing our print statemen
 for example: consider if you are declaring any variable it is used and dedicated to that block of for loop only.
 
 
+intilisation - we are incrementing the counter or the i value we try to iterate the loop.
+condition - every time when we are iterating the loop we try to check the condition whether the incremented value is gretar or lesser based on the condition.
+updation:we check for all the possible ways till the condition is true, we update one by one.
+
+
+
+print square patterns.
+
+* * * *
+* * * *
+* * * *
+* * * *
+
+for(int i = 1; I <= 4; i++){
+
+System.out.println("* * * *");
+}
+
+
+above is the logic and belo is the code:
+
+public class squarepattern {
+    public static void main(String[] args){
+        for(int i = 1; i <= 4; i++){
+            System.out.println("* * * *");
+        }
+    }
+}
+
+
+
+Print Reverse of a number:
+
+Example: 10899  -> 99801
+
+if we want to get the reverse of a given number then we should approach one flow
+
+consider a number - 139
+
+we divide the number by 10 so that we get remainder last digit.
+
+139 % 10 => 10) 139 (13
+                130
+                ----
+                9
+we are using modulelo operator and also we are dividing it by 10
+
+we are getting the last value as we are expecting.
+
+this is the approach we will follow in order to get the last value.
+
+we can write it as 
+
+last digit = N % 10;
+
+##### if you want to remove the last digit from a number, then we need to "divide it by 10"
+
+##### if you want to get the last digit from a given number we get the remainder. we use modulo operator in the code.
+
+
+
+
