@@ -356,9 +356,11 @@ we can write it as
 
 last digit = N % 10;
 
-##### if you want to remove the last digit from a number, then we need to "divide it by 10"
+##### if you want to remove the last digit from a number, then we need to "divide it by 10"  ==> Remove the last digit - Num/10.
 
-##### if you want to get the last digit from a given number we get the remainder. we use modulo operator in the code.
+##### if you want to get the last digit from a given number we get the remainder. we use the modulo operator in the code.   ==> Get the last digit - Num%10.
+
+
 
 
 
