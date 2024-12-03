@@ -393,6 +393,32 @@ public class ReverseNumber {
 
 
 
+from the above program we are trying to print the every digit obe by one.
 
 
+Reverse a given number:
+
+public class ReverseNum {
+    
+        public static void main(String[] args){
+            // Reverse a given number 
+            //6028 -> First get the last digit, remove the last digit 
+    
+            int num = 6028;
+            int rev = 0;
+    
+            while(num > 0){
+                int LastDigit = num % 10;
+                rev = (rev*10) + LastDigit;
+                //System.out.print(LastDigit + " ");
+                num = num/10;
+            }
+            System.out.println(rev);
+        }
+    
+}
+
+from above we are trying to store the Last digit in the reverse variable and trying to print the reverse number at a time.
+
+-----
 
