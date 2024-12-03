@@ -422,3 +422,34 @@ from above we are trying to store the Last digit in the reverse variable and try
 
 -----
 
+### Do While Loop
+
+in do while we try to execute the loop once and check the condition.
+We can understsnd better with an example or the syntax.
+
+Syntax:
+
+do{
+
+// Do something
+
+}while(condition);
+
+
+example:
+
+hello world example:
+
+code:
+public class DoWhileSample {
+    public static void main(String[] args){
+        int count = 1;
+
+        do{
+            System.out.println("Hello World");
+            count++;
+        }while(count <= 10);
+    }
+}
+
+##### From the above code, the loop will run for at least one time and check the condition.(do while loop will execute the code for one time irrespective of the condition)
