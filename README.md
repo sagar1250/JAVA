@@ -361,6 +361,26 @@ last digit = N % 10;
 ##### if you want to get the last digit from a given number we get the remainder. we use the modulo operator in the code.   ==> Get the last digit - Num%10.
 
 
+Code for Reversing a number:
+
+
+public class ReverseNumber {
+    public static void main(String[] args){
+        // Reverse a given number 
+        //6028 ->first get the last digit, remove the last digit 
+
+        int num = 6028;
+
+        while(num > 0){  // here we are using while loop where we dont know that how many times the loop should run so we are using the While loop.
+            int LastDigit = num % 10;    //we are creating a another variable "LastDigit" and storing the last digit of the particular number by using modulo operator.
+            System.out.print(LastDigit + " ");   // now we are printing the last digit from the above operation.
+            num = num/10;  // now here we are removing the last digit and updating the num value. this operation is performed contineously until the condition is false
+        }
+    }
+}
+
+
+
 
 
 
