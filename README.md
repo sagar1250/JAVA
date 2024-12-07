@@ -453,3 +453,19 @@ public class DoWhileSample {
 }
 
 ##### From the above code, the loop will run for at least one time and check the condition.(do while loop will execute the code for one time irrespective of the condition)
+
+with respect to loops we have 2 keywords keywords which are mostly used
+
+--Break
+--Continue
+
+Break or break statement - exit the loop.
+we use break statement in such a way that we need end the execution state of particular on going process.
+
+we use Break statements frequently in Switch statements. like when we are executing switch statement, inside that we are having switch cases so in order to execute specicic set of case we use break after every case statement. in order not to execute other block of code which are not need to print as a output.
+
+Break statement is used to end up specific loop based on the condition. Break statement will only exit only one loop at at a time. we use mostly in the nested for loops.
+
+
+
+
