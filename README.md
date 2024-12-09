@@ -468,4 +468,66 @@ Break statement is used to end up specific loop based on the condition. Break st
 
 
 
+Question:
+
+Keep entering the numbers until the use enters correct multiple of 10.
+
+Solution:
+
+import java.util.*;
+public class multipleOf10 {
+    public static void main(String[] args){
+        // keep entering numbers till user enters multiple of 10
+        int num;
+
+        Scanner sc = new Scanner(System.in);
+        
+        while(true){
+
+        System.out.println("Entrer a number which is multiple of 10");
+
+        num = sc.nextInt();
+            
+        if(num%2 == 0 && num%5 == 0){
+            System.out.println(num + " - entered number is multiple of 10"); 
+            break;  
+        }
+    }
+
+    }
+}
+
+
+The above one which i tried.
+
+---------------
+we can also try it in other way by using " Do While loop "
+
+
+import java.util.*;
+
+public class DoWhileMultiOf10 {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+
+        do{
+            System.out.println("Enter a number which is multiple of 10 : ");
+            int n = sc.nextInt();
+            if(n % 10 == 0){
+                System.out.println(n + "- is multipe of 10");
+                break;
+            }
+        }while(true);
+    }
+}
+
+
+
+above is the code using Do While loop to print multiple of 10 until the user gives the correct input.
+
+----------------
+
+
+
+
 
