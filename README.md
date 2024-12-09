@@ -526,8 +526,88 @@ public class DoWhileMultiOf10 {
 above is the code using Do While loop to print multiple of 10 until the user gives the correct input.
 
 ----------------
+### Continue statement: 
+
+It will skip an Iteration.
+
+Example:
+
+public class ContinueStatement {
+    public static void main(String[] args){
+        // program to print 5 numbers by skipping 3 , the loop should run contineously.
+
+        for(int i = 1;i<=5;i++){
+            if(i == 3){
+                continue;
+            }
+            System.out.println(i);
+        }
+    }
+}
+
+//Output
+
+1
+2
+4
+5
+(it will skip 3 based ont he if condition we mensioned.
 
 
+The above is the code for the Continue statement, where it skips the flow of the iteration.
+
+---------------
+
+Question:
+
+Display all numbers entered by user except multiples of 10:
+
+Solution:
+
+import java.util.*;
+public class exceptMultOf10PrintAll {
+    public static void main(String[] args){
+        //Display all numbers entered by user except multiples of 10.
+        Scanner sc = new Scanner(System.in);
+        while(true){
+            System.out.print("Enter a number :");
+            int num = sc.nextInt();
+            if(num%10 == 0){
+                continue;
+            }
+            System.out.println("Entered number is:" + num);
+        }
+    }
+}
+
+
+this above code is using while loop.
+
+
+we can write is using Do While loop also.
+
+
+
+import java.util.*;
+
+public class exceptMultOf10PrintAllNums {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+
+        do{
+            System.out.print("Enter a Number : ");
+            int num = sc.nextInt();
+            if(num % 10 == 0){
+                continue;
+            }
+            System.out.println("entered number is : " + num);
+        }while(true);
+    }
+}
+
+the above is using Do while loop.
+
+------------------------------------------
 
 
 
