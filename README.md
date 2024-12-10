@@ -656,3 +656,32 @@ in the above code
 7 - At last we will check the if isPrime is true we can conclude that it is prime number else we conclude it as not a prime number..
 
 this is my understanding based on the above code. which i have learnt.
+
+
+
+
+#### Sample Question :
+
+Q1.
+
+How many times hello is printed.
+code:
+
+public class logicQuest {
+    public static void main(String[] args){
+        for(int i = 0;i<5;i++){
+            System.out.println("Hello");
+            i+=2;
+        }
+    }
+}
+
+solution:
+
+Hello 
+Hello
+
+
+Q2.
+
+
