@@ -609,5 +609,50 @@ the above is using Do while loop.
 
 ------------------------------------------
 
+Question:
 
+Check if a number is prime or not?
 
+Solution:
+
+import java.util.*;
+
+public class primeNum {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+
+        Boolean isPrime = true;
+
+        if(num == 2){
+            System.out.println("Prime number");
+        }else{
+            for(int i = 2;i<num-1;i++){
+                if(num%i == 0){
+                    isPrime = false;
+                }
+        }
+        if(isPrime == true){
+            System.out.println(num +" is a prime number");
+        }else{
+            System.out.println(num +" is not a prime number");
+        }
+
+       
+        }
+    }
+}
+
+in the above code 
+
+1 - we are create an object, getting input from the user.
+2 - we have created a Boolean value which is isPrime, we will first assign it to true. We consider  user given number is a prime number.
+3 - we have used if condition, we know that 2 is neither prime nor composite. by google defination 2 is a even prime number, So when we get n value as 2 we will tell to the user it is prime.
+4 - Next, in the else block statement we are having for loop which tells, if the number starts from which means (i = 2; i<=n-1; i++) this will tell you we are checking till n-1.
+5 - next comes if condition where we check if num%i -> if it is divisible and leaves remainder Zero then it is a composite number, in else case it is a prime number.
+6 - starting in the program we hawve considered the boolean value the user entered number as Prime number based on the if statement we can change our Assumption and cange is prime to False if it doesnt satisify the condition.
+
+7 - At last we will check the if isPrime is true we can conclude that it is prime number else we conclude it as not a prime number..
+
+this is my understanding based on the above code. which i have learnt.
