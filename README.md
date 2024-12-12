@@ -713,7 +713,7 @@ public class intSumEvenOdd {
 
 
 
-Executed the code from external source:(Using Do While loop).
+Executed the code from an external source:(Using Do While loop).
 
 package loopsQuest;
 
@@ -753,6 +753,7 @@ public class evenOddSum {
 
 
 Q3.write a program to find the factorial of any number entered by the user.
+
 Hint:factorial of a number n = n*(n-1)*(n-2)*(n-3)......1  and exist for only positive numbers only
 So, factorial of 0!=1, 1!=1, 2!=2, 3!=3*2*1, ........
 
@@ -766,7 +767,7 @@ import java.util.*;
 
 public class factorialOfNum {
     public static void main(String[] args){
-        //  write a program to find the factorial of any number entered by the user.
+        //Write a program to find the factorial of any number entered by the user.
         // 3! = 3 * 2 * 1
 
         Scanner sc = new Scanner(System.in);
@@ -782,9 +783,39 @@ public class factorialOfNum {
 
 
 
-Q4.Write a program to print the multiplication tableof a number N, Entered by the user.
+Code taken from external source:
 
-code which i tried:
+code:
+
+package loopsQuest;
+
+import java.util.*;
+
+public class factorial {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+
+        int num;
+        int fact = 1;
+        System.out.print("Enter a number greater than 0:-");
+        num = sc.nextInt();
+
+        for(int i = 1;i<=num;i++){
+            fact*=i;
+
+        }
+        System.out.println("Factioral of a given number is : "+ fact);
+
+    }
+}
+
+from the above code, only logic in the for loop changed.
+
+
+
+Q4.Write a program to print the multiplication table of a number N, Entered by the user.
+
+code which I tried:
 
 package loopsQuest;
 
@@ -792,7 +823,7 @@ import java.util.*;
 
 public class multiplication {
     public static void main(String[] args){
-        // write a program to print the multiplication table of a number N, entered by the user.
+        //Write a program to print the multiplication table of a number N, entered by the user.
         //2*1 = 2
         Scanner sc = new Scanner(System.in);
 
