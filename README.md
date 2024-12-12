@@ -682,6 +682,102 @@ Hello
 Hello
 
 
-Q2.
+Q2.write a progam that reads a set of integers, and print the sum of the even and the odd integers.
+
+code which i tried:
+
+package loopsQuest;
+import java.util.*;
+
+public class intSumEvenOdd {
+    public static void main(String[] args){
+    //write a program that reads a set of integers, and then prints the sum of even and odd integers.
+
+    Scanner sc = new Scanner(System.in);
+    int nums[] = {1,2,3,4,5};
+    int even = 0;
+    int odd = 0;
+
+    for(int i=0;i<nums.length;i++){
+        if(nums[i]%2 == 0){
+            even = even + nums[i];
+
+        }else if(nums[i]%2 != 0){
+            odd = odd + nums[i];
+        }
+    }
+    System.out.println(even + " " + odd);
+}
+
+}
+
+
+Q3.write a program to find the factorial of any number entered by the user.
+Hint:factorial of a number n = n*(n-1)*(n-2)*(n-3)......1  and exist for only positive numbers only
+So, factorial of 0!=1, 1!=1, 2!=2, 3!=3*2*1, ........
+
+please donot confuse factorial with notequals to operator, they are not the same.
+
+code which i tried:
+
+package loopsQuest;
+
+import java.util.*;
+
+public class factorialOfNum {
+    public static void main(String[] args){
+        //  write a program to find the factorial of any number entered by the user.
+        // 3! = 3 * 2 * 1
+
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int fact = 1;
+
+        for(int i=num;i>0;i--){
+            fact = fact*i;
+        }
+        System.out.println(fact);
+    }
+}
+
+
+
+Q4.Write a program to print the multiplication tableof a number N, Entered by the user.
+
+code which i tried:
+
+package loopsQuest;
+
+import java.util.*;
+
+public class multiplication {
+    public static void main(String[] args){
+        // write a program to print the multiplication table of a number N, entered by the user.
+        //2*1 = 2
+        Scanner sc = new Scanner(System.in);
+
+        int num = sc.nextInt();
+
+        for(int i = 1; i<=10;i++){
+            System.out.println(num + "*"+ i + "=" + num*i );
+        }
+        
+    }
+}
+
+
+Q5.what is wrong in the following program?
+
+package loopsQuest;
+
+public class findWrongInProgram {
+    public static void main(String[] args){
+        for(int i=0;i<=5;i++){
+            System.out.println("i="+i);
+        }
+       // System.out.println("i after the loop = " + i);
+    }
+}
+
 
 
