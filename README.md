@@ -712,6 +712,46 @@ public class intSumEvenOdd {
 }
 
 
+
+Executed the code from external source:(Using Do While loop).
+
+package loopsQuest;
+
+import java.util.*;
+
+public class evenOddSum {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int num;
+        int choice;
+        int evenSum = 0;
+        int oddSum = 0;
+
+        do{
+            System.out.println("Enter a number which is even or odd not the negative number");
+            num = sc.nextInt();
+            if(num>0){
+            
+            if(num%2 == 0){
+                evenSum+=num;
+            }else{
+                oddSum+=num;
+            }
+            
+        }else{
+            System.out.println("Enter valid Intiger number greater than Zero");
+        }
+        System.out.println("to continue the loop: press-1, else press-2 to exit");
+            choice = sc.nextInt();
+        }while(choice == 1);
+        System.out.println("Sum of even Integers: "+ evenSum);
+        System.out.println("sum of Odd Integers: "+- oddSum);
+    }
+}
+
+
+
+
 Q3.write a program to find the factorial of any number entered by the user.
 Hint:factorial of a number n = n*(n-1)*(n-2)*(n-3)......1  and exist for only positive numbers only
 So, factorial of 0!=1, 1!=1, 2!=2, 3!=3*2*1, ........
