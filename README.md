@@ -851,4 +851,81 @@ public class findWrongInProgram {
 }
 
 
+for loops i have updated all the programs in the above. with patterns folder.
 
+
+### functions / Methods
+
+->functions are block of code, reusable
+Syntax:
+
+returnType name{
+
+//Body
+
+return statement;
+}
+
+
+->public static is a access modifier
+->we need to create the function, main function will be exist for sure.
+
+For better clarity i can ex[lain you through an example:
+
+
+public class JavaBasics{
+
+    public static void printHelloWorld(){
+
+    System.out.println("Hello World");
+    System.out.println("Hello World");
+    System.out.println("Hello World");
+    }
+
+    Public static void main(String[] args){
+    printHelloWorld();   //function call
+    }
+    }
+
+
+    -> In a function if we are mensioning int insted of void then the return type should be integer type only.
+
+    example:
+    public class Numbers{
+
+    public static int printNumbers(int numbers){
+
+    for(number=1;number<=10;number++){
+    System.out.println(numbers);
+
+    return 3;
+    }
+    }
+    public static void main(String[] args){
+    printNumbers(1);
+    }
+    }
+
+    -> when we write functions inside the classes we called methods.
+
+    ->In C++ we can write functions outside the class also, but in java we write inside the class only.
+
+
+    ##### Syntax with Parameters:
+
+    returnType name(type param1, type param2){
+
+      //BOdy
+
+      return statement;
+
+      }
+
+      
+->return statement will change based on the return type of the function. we will declare at the starting of the function.
+
+
+
+
+
+      
