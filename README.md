@@ -926,6 +926,52 @@ public class JavaBasics{
 
 
 
+-> We write parameters in the function definition.
+
+
+public class CalculateSum{
+    public static int printCalculateSum(int num1, int num 2){ // these are parameters or formal parameters
+
+       int sum = num1+num2;
+       ruturn sum;
+       }
+
+       public static void main(String[] args){
+
+         Scanner sc = new Scanner(System.in);
+         int a = sc.nextInt();
+         int b = sc.nextInt();
+         int sum = printCalculateSum(a, b);  /a,b are Arguments or actual parameters.
+         System.out.println("The Sum is : " + sum);
+
+         }
+
+
+
+         formal parameters:- parameters  =>function  Defination.
+         Actual parameters:- Arguments   =>function call
+
+         ->In java the memory is organized in Stack format.
+
+          Call Stack:
+
+          the memory for a function will be tracked, which funcion is calling when and how it is called and what is its oprations. one by one in the form of stack it will be stored. We call it as Call Stack.
+
+          When we define individual block in the form of stack we call individal block as Stack frame.
+
+          Call by value - Java always call by value
+          call by reference - in C++ we use call by reference.
+
+          -> In Java, most of the functions are called by value function only.
+          
+         
+I will explain it with an example:
+
+when we declare or initilize a value to a variable in the main function, that variable is called by value in the function that we create. this is call the the call by value function.
+
+-> We will pass a copy of a variable to the function in java.
+
+
 
 
       
