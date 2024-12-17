@@ -972,6 +972,20 @@ when we declare or initilize a value to a variable in the main function, that va
 -> We will pass a copy of a variable to the function in java.
 
 
+Methods are of two types:
+1. user-defined methods.
+    -> The user manually creates methods based on the problem statement.
+   
+2. In-build methods. 
+   ->There are pre defined methods like -- math(), sqrt(), pow(), max()...................so on.
+
+
+
+Function Overloading:
+
+Multiple functions with the same name and but different parameters.
+
+###### ->function overloading depends on the the parameters not on the return type.
 
 
       
