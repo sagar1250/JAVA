@@ -988,4 +988,14 @@ Multiple functions with the same name and but different parameters.
 ###### ->function overloading depends on the the parameters not on the return type.
 
 
-      
+Binary number system:
+
+math -> 0 to 9 -> unique numbers. 10 digits
+
+Decimal number system -> dec means 10, maths will run on 10 digits which are deciamal we call maths as a Decimal number system.
+
+Binary number system:
+
+BI means 2 digits (0,1) 
+
+
