@@ -998,4 +998,31 @@ Binary number system:
 
 BI means 2 digits (0,1) 
 
+##### Variable length Arguments
+
+This is basically if we are not sure about the length of the data type or the size of the data type we try to define in the below way.
+public class VarArg{
+
+public static void varArg(String ...v){
+System.out.println(Arrays.toString(v));
+
+// Body content;
+
+}
+
+public static void main(String[] args){
+
+varArgs(1, 2, 3, 4, 5, 6);  // we can add n numberr of inputs
+varArgs();   //we can limited to empty list as well.
+
+
+##### function overloading
+
+Two are more functions having same method name but different return type.
+
+During compile time it will check with method which method should be executed because the method name will be the same based on the input the user is providing the relevant function will be executed during compile time.
+
+we will check the number of arguments or the Type of arguments.
+
+
 
