@@ -1025,4 +1025,27 @@ During compile time it will check with method which method should be executed be
 we will check the number of arguments or the Type of arguments.
 
 
+##### Arrays
+
+int[] arr = new int[5];
+
+Let's break down the above line for a better understanding.
+
+int[] - This is a data type which is used to input or get the type integer, whether what you are specifing basically any primititive type it follows the role of that specific datatype.
+
+arr - Till here it is called Variable declaration. how when we come to the arr it is a reference variable or we cantell like a variable we are declaring of type integer with respective to array.
+
+new int[5]; - this entirely called as an object creation. we are creating an array object of type integer.
+
+We are creating an object in Heap Memory.
+
+->Towards left from the equals to sigh, we will call as a declaration. This will happen at compile time.
+->The object creation, the right side part which will happen at Run time.
+
+The object creation, is performed at Run time which is also called as Dynamic memeory allocation.
+
+Work flow:
+
+in the stack memory, all the function calls and reference variables go.
+
 
