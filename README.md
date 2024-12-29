@@ -1051,3 +1051,18 @@ in the stack memory, all the function calls and reference variables go.
 
 //(Dint do any thing on 26-12-24, to maintain streak i just done commit.)
 
+
+##### Scope
+
+Method scope - in afunction if we are Defining any variablewe can use that in the function it self.
+
+we cannot use any variable outside of the scope or the function we may use them using parameters.
+
+Block scope:
+
+with in the block we can use insie the function.
+
+Class scope:
+
+we use Access modifiers, like public-private protected.
+
