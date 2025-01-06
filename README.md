@@ -1066,3 +1066,8 @@ Class scope:
 
 we use Access modifiers, like public-private protected.
 
+
+Learned on Arrays 
+
+how to create and how to take input and and output in array.
+
