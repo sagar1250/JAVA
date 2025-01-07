@@ -1071,3 +1071,5 @@ Learned on Arrays
 
 how to create and how to take input and and output in array.
 
+
+prepared a time table for tomorrow.
