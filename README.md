@@ -1073,3 +1073,5 @@ how to create and how to take input and and output in array.
 
 
 prepared a time table for tomorrow.
+
+read the pdf from apna college course on time and space complexity.
