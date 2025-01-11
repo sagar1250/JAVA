@@ -1072,6 +1072,7 @@ Learned on Arrays
 how to create and how to take input and and output in array.
 
 
-prepared a time table for tomorrow.
+prepared a timetable for tomorrow.
 
-read the pdf from apna college course on time and space complexity.
+read the pdf from Apna College course on time and space complexity. 
+revised the same - time and space complexity.
