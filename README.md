@@ -1076,3 +1076,36 @@ prepared a timetable for tomorrow.
 
 read the pdf from Apna College course on time and space complexity. 
 revised the same - time and space complexity.
+
+Learned linear search.
+
+##### Linear search
+
+example code :
+
+package Arrays;
+
+public class LinearSearch {
+
+    public static int linearSearch(int numbers[], int key){
+        for(int i = 0; i<numbers.length;i++){
+            if(numbers[i] == key){
+                return i;
+            }
+        }
+        return -1;
+    }
+    public static void main(String[] args){
+        int numbers[] = {2, 4, 6, 8, 10, 12, 14, 16, 18};
+        int key = 12;
+        int index = linearSearch(numbers, key);
+
+        if(index == -1){
+            System.out.println("Not Found");
+        }else{
+            System.out.println("Key found at index: "+ index);
+        }
+    }
+}
+
+In linear search  the searching of the element goes linearly one by bone from the index 0 to till (n-1) index of that particular array.
