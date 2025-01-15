@@ -1109,3 +1109,7 @@ public class LinearSearch {
 }
 
 In linear search  the searching of the element goes linearly one by bone from the index 0 to till (n-1) index of that particular array.
+
+Learned Bimnary search basicis.
+
+we will have start, end, mid
