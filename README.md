@@ -1113,3 +1113,6 @@ In linear search  the searching of the element goes linearly one by bone from th
 Learned Bimnary search basicis.
 
 we will have start, end, mid
+
+executed binary search code executed and uploaded successfully.
+
