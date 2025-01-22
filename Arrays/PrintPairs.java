@@ -1,5 +1,5 @@
 package Arrays;
-
+//TC=O(n*2) we have nested loop
 public class PrintPairs {
     public static void printPairs(int numbers[]){
         for(int i=0;i<numbers.length;i++){
