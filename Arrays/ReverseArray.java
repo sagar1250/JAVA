@@ -1,4 +1,6 @@
 package Arrays;
+// TC=O(n)
+//SC=O(1)
 
 public class ReverseArray {
     public static void reverse(int numbers[]){
