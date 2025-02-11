@@ -2,6 +2,7 @@ package Arrays;
 
 public class MinMaxSubArray {
     public static void subArray(int numbers[]){
+        int sum = 0;// initilized outside the loop & inside the loop as well
         int count = 0;
         int max = 0;
         int min = 0;
@@ -9,14 +10,15 @@ public class MinMaxSubArray {
             int start = i;
             for(int j=i; j<numbers.length;j++){
                 int end = j;
-                int sum = 0;
+                sum = 0;
                 for(int k = start;k<=end;k++){
 
                     // Printing the sum of the sub arrays logic
                     sum = sum + numbers[k];
-                    if(sum > max){
+                    if(max < sum){
                         max = sum;
-                    }else{
+                    }
+                    if(min > sum){
                         min = sum;
                     }
                     System.out.print(numbers[k]+ " ");
