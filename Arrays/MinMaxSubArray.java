@@ -1,6 +1,8 @@
 package Arrays;
 
 public class MinMaxSubArray {
+
+    //brute force searching technique
     public static void subArray(int numbers[]){
         int sum = 0;// initilized outside the loop & inside the loop as well
         int count = 0;
