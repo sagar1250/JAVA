@@ -1110,9 +1110,15 @@ public class LinearSearch {
 
 In linear search  the searching of the element goes linearly one by bone from the index 0 to till (n-1) index of that particular array.
 
-Learned Bimnary search basicis.
+Learned Binary search basicis.
 
 we will have start, end, mid
 
 executed binary search code executed and uploaded successfully.
+
+
+
+In java Equals to means Assignment operators.
+
+Ternary operator:
 
