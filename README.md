@@ -1161,3 +1161,5 @@ public class Trapping_RainWater {
 
 
 after this, I have watched the Stock selling and buying problem. i need to revisit and understand one more time and start practicing the code.
+
+watched the insertion code video. 24-02-2024.
