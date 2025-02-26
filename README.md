@@ -1160,6 +1160,53 @@ public class Trapping_RainWater {
 }
 
 
-after this, I have watched the Stock selling and buying problem. i need to revisit and understand one more time and start practicing the code.
+after this, I have watched the Stock selling and buying problem. I need to revisit and understand one more time and start practicing the code.
 
 watched the insertion code video. 24-02-2024.
+-----------------------------------------------------------------
+Today - 26-02-2025
+
+learned about inbuild sorts.
+import package
+
+import java.util.Arrays;
+Arrays.sort(arr);
+
+Arrays - class name
+sort - it is the function
+arr - the argument
+
+
+We have one more also 
+
+import java.util.Arrays;
+Arrays.sort(arr, si, ei)
+For 
+the above types of sorting we can sort them in Ascending order only.
+
+
+the other way to reverse we are using collections.
+
+import java.util.Collections;
+Arrays.sort.(arr.Collections.reverseOrder());
+
+if we want to use arguments we can use the below
+
+Arrays.sort(arr, si , ei, collections.reverseOrder());
+
+if we are using collection we should use Objects (Integer) instead of primitive types like int.
+
+Integer arr[] = {5, 4, 3, 2, 1};
+
+
+the reverseOrder() function internally uses a comparator.
+
+Example:
+
+public static int compare(int a, int b){
+// a<b -ve
+//a==b 0
+//a.b +ve
+
+return a-b;
+}
