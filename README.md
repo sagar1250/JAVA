@@ -1210,3 +1210,59 @@ public static int compare(int a, int b){
 
 return a-b;
 }
+
+
+## Encapsulation -->we are encapsulating data & methods that is called encapsulation
+
+encapsulation is a part of OOPS.
+
+for example:
+
+private int age;
+
+If we are using private infront of any variable that variable can be access in the same clsaa in which it was created.
+If you create an instance variable every time, make it private because no one from the outside world should access the data, right?
+->In order to access the private variables there is some procedure which is we access form the methods.
+->We can access the private variables inside the method in the same class.
+
+for example:
+
+package CoreJava;
+//created call name Human
+class Human{
+    private int age = 12;
+        private String name = "Sagar";
+        public int getAge(){
+            return age;
+        }
+        public String getName(){
+            return name;
+        }
+}
+public class Encapsulation {
+      
+    public static void main(String[] args){
+        //we need to create an instance variable or the object with the class name
+        Human obj = new Human();
+        System.out.println(obj.getAge()+ " " + obj.getName());
+    }
+}
+
+->we cannot access the private variables data directly but  insted we can access the private variables data using methods which are present in the same class in which we have created the private variables.
+->we can call the methods using the object, same way as when we are trying to call the instance variables or calling the class when we create object and we call the object by the method name.
+
+Example: obj.<method name>
+
+->In this way we can call private variables using method.which are present in the same class
+->If you have declared a variable but not initilized the variable with some specific value then we can do one thing for for above private variables to access by assigning the value to the variable.
+->We can create  a method with different variables ans assign it to the actual variable
+
+for example:
+
+private int age;
+public void setAge(int a){
+  age = 01;
+  }
+-> to call this variable call the variable using the method name
+
+obj.setAge(02);  // you can assign value here as well.
