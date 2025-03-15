@@ -1266,3 +1266,7 @@ public void setAge(int a){
 -> to call this variable call the variable using the method name
 
 obj.setAge(02);  // you can assign value here as well.
+
+
+15-03-2025
+Learned introduction of 2D array.
