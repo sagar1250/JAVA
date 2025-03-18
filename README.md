@@ -1270,3 +1270,6 @@ obj.setAge(02);  // you can assign value here as well.
 
 15-03-2025
 Learned introduction of 2D array.
+18-03-2024
+learned memory management of arrays with in 1D, 2D, 3D ........
+
