@@ -30,4 +30,7 @@ public static void main(String[] args){
     System.out.println(getShortestPath(path));
   }
 }
+
+
+Time Complexity: O(n)
     
