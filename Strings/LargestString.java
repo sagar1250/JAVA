@@ -14,3 +14,6 @@ public class LargestString {
         System.out.println(largest);
     }
 }
+// time complexity 
+//  in this copareTo() function will compare the letters of the strings for N strings, which means x-letterlength andd n is n-strings
+// O(x * N)
