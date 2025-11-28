@@ -1278,3 +1278,9 @@ Learned polymorphism, Final key word(variables, methods, class), Object class, D
 
 Worked on LeetCode problems on Arrays and a basic level of problem
 
+**Date: 27/11/25**
+
+If we want to convert any character to Upper Case. We use the built-in function.
+
+Character.toUpperCase(ch);  //Character call inbuild function.
+
