@@ -1284,3 +1284,79 @@ If we want to convert any character to Upper Case. We use the built-in function.
 
 Character.toUpperCase(ch);  //Character call inbuild function.
 
+
+#Arrays
+->to track variables, it will be tifficult to track alll the variables
+->will create a list to track them by the index name
+->index start from zero - zerobased indexing
+
+Array is the list of elements of same typeplaces in contiguous ,e,oey allocation.
+
+in array we store similar type ofarray likeall int type at one place or all float elementsor....
+
+memoery we have address will store in conteguous order
+
+##operations in Array
+
+.create
+.inpou
+.ouutput
+.update
+
+create- dataType arrayName[] = new dataType[size];
+
+ex;
+int marks[] = new int[50];
+->arrays are type static cannot change the size at runtime
+
+->int numbers[] = {1, 2, 3}; size = 3
+string fruite[]={"apple", "mango"};
+
+##input in array:
+
+int marks[]=new int[100];
+
+scanner sc = new Scanner(System.in);
+
+marks[0]=sc.nextInt90;//phu
+marks[1]=sc.nextInt90;//chem
+marks[2]=sc.nextInt90;//math
+
+System.out.println("phy = " +marks[0]);
+System.out.println("chem = " +marks[1]);
+System.out.println("math = " +marks[2]); // misscalsulate then
+
+marks[2]=100;/ we can do this marks[2]=marks[2]+1; all add,sub,mult,div perform alloperation
+System.out.printl("math = "+marks[2]);
+
+###length of array
+.length
+int marks[] = new int[100];
+System.out.println("length of array = "+ marks.length); dot operator
+(we can learn more in objects and class on this)
+
+###Parcing arraysas argument:
+function = 
+1.passby value
+2.pass by reference
+
+Arrays come under pass by reference
+
+//creating new function
+public static void update(int marks[]){
+for(int i=0;i<marks.length;i++){
+  marks[i]=marks[i] +1;
+}
+
+main function
+int marks[]=new{97,98,99};
+update(marks);
+//print out marks
+for(int i=0;i<marks.length;i++){
+  System.out.print(marks[i]+"");
+  }
+  Sytem.out.println();
+  }
+
+  Above this is for call by reference
+  
