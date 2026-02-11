@@ -1359,4 +1359,13 @@ for(int i=0;i<marks.length;i++){
   }
 
   Above this is for call by reference
+
+
+## Strings
+
+Strings are immutable
+
+<img width="356" height="188" alt="image" src="https://github.com/user-attachments/assets/a599400c-d9eb-407e-8754-961f2b2ae70e" />
+
+
   
