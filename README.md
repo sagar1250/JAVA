@@ -1369,3 +1369,13 @@ Strings are immutable
 
 
   
+### Abstract class
+
+You cant create an object of Abstract class
+
+<img width="3125" height="2160" alt="image" src="https://github.com/user-attachments/assets/2f298f49-c250-42c1-beb8-e6dd218fdb58" />
+
+
+<img width="3237" height="1906" alt="image" src="https://github.com/user-attachments/assets/076442c2-10c7-4e96-9593-752c227a7710" />
+
+
