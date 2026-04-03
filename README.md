@@ -1378,4 +1378,40 @@ You cant create an object of Abstract class
 
 <img width="3237" height="1906" alt="image" src="https://github.com/user-attachments/assets/076442c2-10c7-4e96-9593-752c227a7710" />
 
+-> Abstract class can have abatract methos and normal methodos.
+->where as abstract method should be declared in the abstract class only.
+->when we are using abstract class and we are not implementing any thing witht the created object we can defin the abstract mentod. we can extend the created class and we can implement in that extended class section.
 
+<img width="419" height="321" alt="image" src="https://github.com/user-attachments/assets/8700b178-51dc-4f8f-84dd-77343b2d79a7" />
+
+
+Note: you cant ceate an abstract method, hen we already declared car with abstract but we can use wagner tocreat an objecct.
+
+Ex: 
+
+abstract class car{      //abstract class
+         public abstract void drive();  //abstract menthod - we declared the method and in;t implement any thing whic means we dint took any action with that method: Just we declared.
+
+ public void Play Music(){  //here we declared and implement the method music
+         System.out.println("Play music to enjoy the moment");
+         }
+         
+}
+
+class Wagner extends car{
+
+public void drive(){   // Here we won't call the car object we call the extended wagner object we override the methods from the previous class
+ System.out.println("Enjoy the ride and have fun");
+}
+
+}
+
+Public class Demo{
+
+public static void main(String[] args[]){
+ car obj1 = new wagner();
+ obj1.drive();// it is calling extend class implemntation method, not the car method
+ obj1.Music();
+
+}
+}
