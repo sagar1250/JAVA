@@ -1415,3 +1415,12 @@ public static void main(String[] args[]){
 
 }
 }
+
+
+Abstract Key word:
+
+if you are trying to create a method and using curly braces which means you are defining a mentod inside a class. you can take an example as car class from above.
+
+when you dont know how to use that menthod or the feature you can decalare the method insted of defining a method with curly braces using semi colon.
+
+
